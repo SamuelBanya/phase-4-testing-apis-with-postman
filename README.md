@@ -17,7 +17,7 @@ requests** and return an appropriate **response**, following the idea of
 **client-server** communication. So far, we've been using one particular client
 to interact with our server: the browser!
 
-It's straightforward to use the browser to make a GET request &mdash; all we
+It's straightforward to use the browser to make a GET request — all we
 have to do is enter an address in the browser's URL bar, such as
 `http://localhost:3000/birds`, and hit enter.
 
@@ -56,13 +56,19 @@ the app rather than use the web version. If you have any issues downloading, mak
 
 Once you've downloaded Postman and signed in, you should see a screen like this:
 
-![postman welcome screen](https://raw.githubusercontent.com/learn-co-curriculum/phase-4-testing-apis-with-postman/master/postman-first-screen.png)
+![postman welcome screen](https://curriculum-content.s3.amazonaws.com/phase-4/testing-apis-with-postman/postman-welcome-screen.png)
 
 To show what we can do with Postman, we're going to be using the
 [JSON Placeholder API][json placeholder], a free resource where we can try out
 different requests. For our first request, we'll make a simple GET request to
-`https://jsonplaceholder.typicode.com/posts/1`. Enter the URL in Postman, and
-click send:
+`https://jsonplaceholder.typicode.com/posts/1`.
+
+Click on the plus sign to open a new tab. You should see a field where you can
+enter your request:
+
+![postman request field](https://curriculum-content.s3.amazonaws.com/phase-4/testing-apis-with-postman/postman-request-field.png)
+
+Enter the URL in Postman, and click send:
 
 ![postman get request](https://raw.githubusercontent.com/learn-co-curriculum/phase-4-testing-apis-with-postman/master/postman-get-request.png)
 
@@ -147,9 +153,9 @@ over how the response is being sent, with a nice interface for customizing the
 HTTP verb, URL, headers, and body.
 
 In future lessons, we'll be expanding our API to handle non-GET requests, so
-being able a tool like Postman will make our API development much easier! It's
-also a great tool to use if you're exploring a third-party API for use in your
-projects.
+being able to use a tool like Postman will make our API development much easier!
+It's also a great tool to use if you're exploring a third-party API for use in
+your projects.
 
 ## Resources
 
