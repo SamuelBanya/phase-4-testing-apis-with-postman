@@ -68,7 +68,7 @@ enter your request:
 
 ![postman request field](https://curriculum-content.s3.amazonaws.com/phase-4/testing-apis-with-postman/postman-request-field.png)
 
-Enter the URL in Postman, and click send:
+Enter the URL in the field and click send:
 
 ![postman get request](https://raw.githubusercontent.com/learn-co-curriculum/phase-4-testing-apis-with-postman/master/postman-get-request.png)
 
