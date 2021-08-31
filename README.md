@@ -38,8 +38,8 @@ fetch("http://localhost:4000/birds", {
 });
 ```
 
-However, needing to run a JavaScript application and write out code using
-`fetch` to test out our API in development would be quite a chore.
+However, running a JavaScript application and writing `fetch` requests to test
+out our API in development would be quite a chore.
 
 Luckily for us, there are some excellent tools out there to make interacting
 with APIs, and customizing all different parts of the request (the headers, HTTP
