@@ -140,11 +140,6 @@ You'll also notice some additional info comes back in the response, such as a
 status code of `201 Created` that indicates the successful creation of a
 resource.
 
-Experiment with Postman by making requests to other endpoints for the
-[JSON Placeholder API][json placeholder]. Try making a PATCH request and a
-DELETE request. What changes between these different requests? What does this
-API send as a response if you make a bad request?
-
 ## Conclusion
 
 API clients like Postman are extremely valuable to have in your API developer
@@ -156,6 +151,14 @@ In future lessons, we'll be expanding our API to handle non-GET requests, so
 being able to use a tool like Postman will make our API development much easier!
 It's also a great tool to use if you're exploring a third-party API for use in
 your projects.
+
+## Check For Understanding
+
+Before you move on, solidify your understanding of how to use Postman by making
+requests to other endpoints for the [JSON Placeholder API][json placeholder].
+Try making a PATCH request and a DELETE request. What changes between these
+different requests? What does this API send as a response if you make a bad
+request?
 
 ## Resources
 
